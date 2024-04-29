@@ -59,6 +59,42 @@
                     </div>
 
                     <div class="form-group">
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input name="product_images[]" type="file" class="custom-file-input" id="exampleInputFile1">
+                                <label class="custom-file-label" for="exampleInputFile1">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input name="product_images[]" type="file" class="custom-file-input" id="exampleInputFile2">
+                                <label class="custom-file-label" for="exampleInputFile2">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <div class="custom-file">
+                                <input name="product_images[]" type="file" class="custom-file-input" id="exampleInputFile3">
+                                <label class="custom-file-label" for="exampleInputFile3">Choose file</label>
+                            </div>
+                            <div class="input-group-append">
+                                <span class="input-group-text">Upload</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
                         <select name="category_id" class="form-control select2" style="width: 100%;">
                             <option selected="selected" disabled>Select category</option>
                             @foreach($categories as $category)
